@@ -1,6 +1,6 @@
 # action-workflow-check
 
-This is a CLI which checks if the version of an action used in your workflow is up to date, and output changes required.
+This is a CLI which checks if the version of an action used in your workflow is up to date, and output changes required. This is to assist with the recommendations relating to pinning third party actions using their git sha in the [Security hardening for GitHub Actions](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions#using-third-party-actions).
 
 This project builds on the [github.com/rhysd/actionlint](https://github.com/rhysd/actionlint) project, using it as a library.
 
